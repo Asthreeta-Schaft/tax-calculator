@@ -1,0 +1,93 @@
+body{
+  background-color: #d8d4d4;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  color: rgb(55, 6, 252);
+}
+
+.head{
+  color: rgb(29, 28, 28);
+}
+
+.para{
+  color: rgb(29, 28, 28);
+  padding: 20px;
+}
+
+.form-group{
+  margin: 20px 0;
+  text-align: left;
+}
+
+label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type='number']{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border:solid 1px gray;
+  margin-bottom: 20px;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: rgb(24, 193, 61);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border:none;
+  font-size: 18px;
+}
+
+.btn:hover{
+  color: #111;
+  background-color: rgb(58, 249, 99);
+  transition: 0.3s;
+}
+
+.myWrapTable{
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.myWrapTable td{
+  border: solid 1px gray;
+  padding: 5px 10px;
+}
+
+.main{
+  padding: 50px;
+  margin-top: 10px;
+}
+
+.head1{
+  padding: 10px;
+  color: rgb(48, 48, 211);
+}
+
+.body-p{
+  font-size: 20px;
+  padding-left: 10px;
+  color: #2a2a2a;
+}
+
+.img{
+  border-radius: 18px;
+  padding: 10px;
+  width: 50%;
+}
+
+.head3{
+  padding: 10px;
+  color: rgb(246, 80, 43);
+}

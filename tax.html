@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Income Tax Calculator</title>
+   
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+  </head>
+  <body>
+
+
+    <!-- Tax Calculator -->
+
+    <div class="container">
+
+      <h1>Tax Calculator</h1>
+      <h2 class="head">Income Tax Calculator</h2>
+
+      <p class="para">
+        The income tax slabs under the new income tax regime will be as follows:
+      </p>
+
+      <table class="myWrapTable">
+        <tbody>
+
+          <tr class="para">
+            <td><strong>Income tax slabs under new tax regime</strong></td>
+            <td><strong>Income tax rates under new tax regime</strong></td>
+          </tr>
+          
+          <tr>
+            <td class="para">0 to Rs 3 lakh</td>
+            <td>0</td>
+          </tr>
+          
+          <tr>
+            <td class="para">Rs 3 lakh to Rs 7 lakh</td>
+            <td>5%</td>
+          </tr>
+          
+          <tr>
+            <td class="para">Rs 7 lakh to Rs 10 lakh</td>
+            <td>10%</td>
+          </tr>
+          
+          <tr>
+            <td class="para">Rs 10 lakh to Rs 12 lakh</td>
+            <td>15%</td>
+          </tr>
+          
+          <tr>
+            <td class="para">Rs 12 lakh to Rs 15 lakh</td>
+            <td>20%</td>
+          </tr>
+          
+          <tr>
+            <td class="para">Income above Rs 15 lakh</td>
+            <td>30%</td>
+          </tr>
+        
+        </tbody>
+      </table>
+
+      <form id="tax-form">
+
+        <div class="form-group">
+
+          <label for="income" class="para">Annual Income: New Slab 2024-25</label>
+
+            <input type="number" id="income" name="income"
+            placeholder="Enter your annual income"
+            required />
+
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn">Calculate Tax</button>
+        </div>
+
+      </form>
+
+      
+
+      </div>
+
+       <!-- Script -->
+    <script src="index.js"></script>
+
+  </body>
+</html>
